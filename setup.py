@@ -84,7 +84,7 @@ setup(
         "plotly>=4.14,<5",
         "pprintpp",
         "psutil",
-        "pymongo>=3.11,<4",
+        "pymongo>=3.11,<5",
         "PyYAML",
         "retrying",
         "scikit-learn",
@@ -101,7 +101,7 @@ setup(
         # wheels. When users install FiftyOne in this window, they will need to
         # compile OpenCV from source, leading to either errors or a
         # time-consuming installation.
-        "opencv-python-headless<=4.4.0.46",
+        "opencv-python-headless<=4.11.0.86",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
